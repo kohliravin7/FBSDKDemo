@@ -10,6 +10,11 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic) NSMutableDictionary *postArray;
+@property (nonatomic) UISegmentedControl *segmentControl;
+@property (nonatomic) UIImage *photo;
+@property (nonatomic) NSArray *photoArray;
+@property (nonatomic) UICollectionView *collectionView;
 
 @end
 
